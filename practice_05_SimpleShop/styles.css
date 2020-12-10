@@ -1,0 +1,110 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  min-width: 992px;
+  font-family: "Helvetica";
+}
+
+/* navbar */
+#navbar {
+  padding: 0 30px;
+  /* position: fixed; */
+  background-color: white;
+  overflow: hidden;
+}
+
+#logo {
+  float: left;
+  display: block;
+  line-height: 60px;
+}
+
+#menu {
+  float: right;
+  list-style: none;
+}
+
+#menu li {
+  float:left;
+  display:block;
+}
+
+#menu li:not(:last-child) {
+  float:left;
+  margin-right:30px;
+}
+
+#menu li a{
+  float:left;
+  text-decoration: none;
+  color: black;
+  font-weight: bold;
+}
+/* hero header */
+#hero-header {
+  height: 450px; /*div크기 450px로 넓혀주기*/
+  background-image: url("images/hero_header.jpg");
+  background-repeat: no-repeat;
+  background-size: 100% 450px;
+}
+
+#header {
+  text-align: center;
+  font-size: 24px;
+  color: #545454;
+  font-weight:bold;
+  margin: 60px;
+}
+#products {
+  width: 755px;
+  height: 100%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.product {
+  width: 225px;
+  overflow:hidden;
+  margin-left: auto; /*양쪽여백 일정하게 정렬(가운데로)*/
+  margin-right: auto;
+  margin-left:10px;
+  margin-right:10px;
+  margin-bottom: 80px;
+  float: left;
+}
+
+.product img {
+  width: 225px;
+  height: 225px;
+}
+
+.product a{
+  text-decoration: none;
+}
+#info p{
+  font-size:16px;
+  text-align: center;
+  color:#545454;
+}
+
+.clear{
+  clear: right;
+}
+
+#footer {
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+}
+
+#footer img {
+  margin-top: 40px;
+  margin-bottom: 80px;
+}
+
+#footer a:not(:last-child){
+  margin-right: 20px;
+}
