@@ -10,8 +10,9 @@ body {
 
 /* navbar */
 #navbar {
+  width:100%;
   padding: 0 30px;
-  /* position: fixed; */
+  position: fixed;
   background-color: white;
   overflow: hidden;
 }
